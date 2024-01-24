@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="shailcolor">#2196F3</color>
+    <color name="shailcolor1">#FF9800</color>
+    <color name="shailcolor2">#4CAF50</color>
+    <color name="purple">#9C27B0</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#E60F0F</color>
+    <color name="maroon">#EA0B72</color>
+    <color name="GREEN">#0B320C</color>
+    <color name="lightblue">#00BCD4</color>
+    <color name="bengal_col">#F26724</color>
+    <color name="bengluru_col">#C30002</color>
+    <color name="up_col">#F6DF6D</color>
+    <color name="delhi_col">#DEBB3B</color>
+    <color name="gujarat_col">#C6252B</color>
+    <color name="haryana_col">#9494AB</color>
+    <color name="patna_col">#005323</color>
+    <color name="puneri_col">#F47521</color>
+    <color name="tamil_col">#E6C974</color>
+    <color name="telugu_col">#EAC039</color>
+    <color name="mumbai_col">#F15B26</color>
+</resources>

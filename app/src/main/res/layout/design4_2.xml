@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Mobile App"
+        android:textSize="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Mockup"
+        android:layout_below="@+id/text1"
+        android:textSize="95dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        ></TextView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Start"
+        android:textColor="#D7D6E1"
+        android:textAllCaps="false"
+        android:layout_below="@id/text2"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/curvrectangle"></androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

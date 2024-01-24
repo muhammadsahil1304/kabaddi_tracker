@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue_background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="69dp"
+            android:src="@drawable/orch"></ImageView>
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@+id/logo"
+            android:text="ORCHESTRA"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="0dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"></TextView>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_centerHorizontal="true"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:paddingStart="28dp"
+            android:layout_below="@+id/text1"
+            android:text="TECHNOLOGY"
+            android:typeface="monospace"
+            android:textColor="@color/white"
+            android:textSize="25dp"></TextView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/back_design3_2"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:id="@+id/location"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/headphone"
+
+                        android:padding="25dp"
+                        android:scaleType="fitCenter">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Call"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Experience"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/back_design3_2"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:id="@+id/sms"
+                        android:layout_width="110dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/sms"
+
+                        android:padding="25dp"
+                        android:scaleType="fitCenter">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SMS"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Experience"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/back_design3_2"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:id="@+id/growth"
+                        android:layout_width="110dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/coinss"
+                        app:tint="@color/white"
+
+                        android:padding="25dp"
+                        android:scaleType="fitCenter">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Data"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Experience"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@drawable/back_design3_2"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:id="@+id/info"
+                        android:layout_width="110dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/book"
+                        app:tint="@color/white"
+
+                        android:padding="25dp"
+                        android:scaleType="fitCenter">
+
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Streaming"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Experience"
+                        android:textSize="30dp"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                >
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="400dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/layout2"
+                    android:text="How would you rate your call experience ?"
+                    android:textColor="@color/white"
+                    android:paddingStart="15dp"
+                    android:textSize="30dp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/layout2"
+                    android:paddingStart="10dp"
+                    android:text="◻ Very Satisfied "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/layout2"
+                    android:text="◻ Satisfied "
+                    android:textColor="@color/white"
+                    android:paddingStart="10dp"
+                    android:textSize="20dp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/layout2"
+                    android:text="◻ Dissatisfied "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:paddingStart="10dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:paddingStart="10dp"
+                    android:layout_below="@id/layout2"
+                    android:text="◻ Very Dissatisfied "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/layout2"
+                    android:text="◻ Neither Agree nor Disagree  "
+                    android:textColor="@color/white"
+                    android:paddingStart="10dp"
+                    android:textSize="20dp"
+                    ></TextView>
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/usernameid"
+                    android:layout_width="430dp"
+                    android:layout_height="70dp"
+                    android:hint="your comment"
+                    android:textColorHint="@color/white"
+                    android:paddingStart="20dp"
+                    android:layout_below="@+id/name"
+                    android:inputType="text"
+                    android:background="@drawable/blank_back"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_gravity="center_horizontal"
+                    ></androidx.appcompat.widget.AppCompatEditText>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="430dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/background2"
+                    android:text="SUBMIT"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="12dp"
+                    android:textSize="30dp"
+                    android:textColor="@color/white"
+                    >
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

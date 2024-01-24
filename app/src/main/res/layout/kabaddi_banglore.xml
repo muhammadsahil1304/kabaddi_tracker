@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:background="@color/black">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/titleid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BANGALURU BULLS"
+                android:textColor="#C30002"
+                android:textSize="60dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther9"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#C30002">
+
+
+                    <LinearLayout
+                        android:id="@+id/jaipur9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur9img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/vikas">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur9text"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Vikas \nKandola"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther6"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur6img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/monu">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur6text"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Bhavani \nRajput"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther7"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur7img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/piotr">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur7text"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Piotr \nPamulak"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur1img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/abhisheksingh">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur1text"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Abhishek \nSingh"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther10"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur10img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/banty">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur10text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Banty"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther11"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur11img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/neeraj_narwal">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur11text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Neeraj \nNarwal"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur2img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/sushil">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur2text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Sushil"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther12"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur12img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/no_image">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur12text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Bharat"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther13"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur13img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/akshit">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur13text"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Akshit"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur3img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/no_image">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur3text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Surjeet \nSingh"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther14"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur14img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/vishal">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur14text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Vishal"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther15"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur15img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/rakshit">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur15text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Rakshit"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther4"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur4img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/pon">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur4text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Ponparthiban \nSubramanian"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther16"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur16img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/saurabh">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur16text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Saurabh \nNandal"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther17"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur17img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/aman">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur17text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Aman"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther5"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur5img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/sunder">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@id/jaipur5text"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Sunder"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther18"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur18img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/yash">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur18text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Yash Hooda"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/pinkpanther19"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="190dp"
+                    android:elevation="8dp"
+                    app:cardBackgroundColor="#C30002"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/jaipur19"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/jaipur19img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+
+                            android:src="@drawable/no_image">
+
+                        </ImageView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:id="@+id/jaipur19text"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Md. Liton Ali"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:gravity="center_horizontal"
+                    ></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#C30002">
+            <TextView
+                android:id="@+id/info_jaipur"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Coach= Randhir Singh Sehrawat \nTrophies won = 1 \nHome ground= Shree Kanteerava Stadium, Bengaluru \nOfficial website= http://www.bengalurubulls.com// \nOwner= Kosmik Global Media"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                ></TextView>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_weight="3"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#B12164"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/jaipur"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/jaipurimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+
+
+                        android:src="@drawable/jaipur_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/jaipurtextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Jaipur Pink Panthers"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:textSize="12dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#F26724"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/bengal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/bengalimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/bengal_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/bengaltextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Bengal Warriors"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:textSize="14dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#C30002"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/Bengaluru"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Bengaluruimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/bengaluru_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/bengalurutextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Bengaluru Bulls"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:textSize="12dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#F6DF6D"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/up"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/upimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/up_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/uptextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="UP       Yodhas"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:textSize="13dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#DEBB3B"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/Delhi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Delhiimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/delhi_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/Delhitextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Dabang Delhi"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:padding="3dp"
+                        android:textSize="14dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#C6252B"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/gujarat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/gujaratimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/gujarat_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/gujarattextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Gujarat Giants"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:textSize="16dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#9494AB"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/haryana"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Haryanaimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/haryana_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/haryanatextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Haryana Steelers"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="3dp"
+                        android:textSize="13dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#005323"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/patna"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/patnaimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/patna_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/patnatextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Patna Pirates"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="3dp"
+                        android:textSize="14dp"
+                        android:textStyle=""></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#F47521"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/Pune"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Puneimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/pune_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/punetextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Puneri Paltan"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:textSize="14dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#E6C974"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/Tamil"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/tamilimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/tamil_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/tamiltextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tamil Thalaivas"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="2dp"
+                        android:textSize="14dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#EAC039"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/Telugu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Teluguimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/telugu_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/Telugutextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Telugu Titains"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="4dp"
+                        android:textSize="14dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="8dp"
+                app:cardBackgroundColor="#F15B26"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/Mumbai"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/mumbaiimg"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/mumbai_logo">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/mumbaitextid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="U Mumba"
+                        android:textColor="@color/black"
+                        android:gravity="center_horizontal"
+                        android:padding="3dp"
+                        android:textSize="13dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

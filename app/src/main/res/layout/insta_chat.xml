@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="muhammad_sahil1304"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"></TextView>
+        <TextView
+            android:id="@+id/arrow"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_height="wrap_content"
+            android:text="v"
+            android:layout_toRightOf="@id/username"
+            android:textSize="25dp"></TextView>
+        <ImageView
+            android:id="@+id/newchat"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:tint="@color/white"
+            android:src="@drawable/insta_newchat"></ImageView>
+        <ImageView
+            android:id="@+id/newvc"
+            android:layout_toLeftOf="@id/newchat"
+            android:layout_width="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="40dp"
+            app:tint="@color/white"
+            android:src="@drawable/insta_newvc"></ImageView>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/custom_editbox"
+            android:hint="🔍  Search"
+            android:textColorHint="#A6A6A6"
+            android:paddingStart="25dp"></EditText>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        >
+        <EditText
+            android:id="@+id/note1"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@drawable/insta_note"
+            android:hint="Note.."
+            android:gravity="center_horizontal|center_vertical"
+            android:textColorHint="#A6A6A6"
+            android:textSize="35dp"></EditText>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/story1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/story_background"
+            android:src="@drawable/my_dp2"
+            android:padding="18dp"
+            android:scaleType="centerCrop"
+
+            ></ImageView>
+        <TextView
+            android:id="@+id/mystory"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:layout_below="@id/story1"
+            android:text="My Story"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+
+            ></TextView>
+
+        <EditText
+            android:id="@+id/note2"
+            android:layout_toRightOf="@id/note1"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@drawable/insta_note"
+            android:hint="Note.."
+            android:gravity="center_horizontal|center_vertical"
+            android:textColorHint="#A6A6A6"
+            android:textSize="35dp"></EditText>
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/story2"
+            android:layout_toRightOf="@+id/story1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/story_background"
+            android:src="@drawable/shashank_dp"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+
+            ></ImageView>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:background="@drawable/acive"
+            android:layout_marginTop="135dp"
+            android:layout_marginStart="200dp"></ImageView>
+
+        <TextView
+            android:id="@+id/mystory1"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/story2"
+            android:layout_toRightOf="@id/mystory"
+            android:text="shashank_bh5"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingStart="0dp"
+
+            ></TextView>
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/story3"
+            android:layout_toRightOf="@+id/story2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/story_background"
+            android:src="@drawable/rvcj_logo"
+            android:padding="17dp"
+            android:scaleType="centerCrop"
+
+            ></ImageView>
+        <TextView
+            android:id="@+id/mystory3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/story3"
+            android:layout_toRightOf="@id/mystory1"
+            android:text="rvcjinsta"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingStart="12dp"
+
+            ></TextView>
+        <EditText
+            android:id="@+id/note3"
+            android:layout_toRightOf="@id/note2"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@drawable/insta_note"
+            android:hint="Note.."
+            android:gravity="center_horizontal|center_vertical"
+            android:textColorHint="#A6A6A6"
+            android:textSize="35dp"></EditText>
+        <EditText
+            android:id="@+id/note4"
+            android:layout_toRightOf="@id/note3"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:background="@drawable/insta_note"
+            android:hint="🎵Pal"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColorHint="#A6A6A6"
+            android:textSize="35dp"></EditText>
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/story4"
+            android:layout_toRightOf="@+id/story3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/story_background"
+            android:src="@drawable/prab_dp"
+            android:padding="17dp"
+            android:scaleType="centerCrop"
+
+            ></ImageView>
+        <TextView
+            android:id="@+id/mystory2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/story4"
+            android:layout_toRightOf="@id/mystory3"
+            android:text="prarabdhthakur"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingStart="10dp"
+
+            ></TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Messages"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_alignParentLeft="true"
+            ></TextView>
+        <TextView
+            android:layout_toRightOf="@id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Request"
+            android:gravity="end"
+            android:textColor="#3080BB"
+            android:textSize="25dp"
+            android:layout_alignParentRight="true"
+            ></TextView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
