@@ -134,6 +134,157 @@ class MainActivity2 : AppCompatActivity() {
 
             }
         }
+        if (name.equals("1002")) {
+
+
+            binding.pinkpanther9.setOnClickListener {
+                callingActivityData("2000")
+
+            }
+            binding.pinkpanther6.setOnClickListener {
+                callingActivityData("2001")
+
+            }
+            binding.pinkpanther7.setOnClickListener {
+                callingActivityData("2002")
+
+            }
+            binding.pinkpanther1.setOnClickListener {
+                callingActivityData("2003")
+
+            }
+            binding.pinkpanther10.setOnClickListener {
+                callingActivityData("2004")
+
+            }
+            binding.pinkpanther11.setOnClickListener {
+                callingActivityData("2005")
+
+            }
+            binding.pinkpanther2.setOnClickListener {
+                callingActivityData("2006")
+
+            }
+            binding.pinkpanther12.setOnClickListener {
+                callingActivityData("2007")
+
+            }
+            binding.pinkpanther13.setOnClickListener {
+                callingActivityData("2008")
+
+            }
+            binding.pinkpanther3.setOnClickListener {
+                callingActivityData("2009")
+
+            }
+            binding.pinkpanther14.setOnClickListener {
+                callingActivityData("2010")
+
+            }
+            binding.pinkpanther15.setOnClickListener {
+                callingActivityData("2011")
+
+            }
+            binding.pinkpanther4.setOnClickListener {
+                callingActivityData("2012")
+
+            }
+            binding.pinkpanther16.setOnClickListener {
+                callingActivityData("2013")
+
+            }
+            binding.pinkpanther17.setOnClickListener {
+                callingActivityData("2014")
+
+            }
+            binding.pinkpanther5.setOnClickListener {
+                callingActivityData("2015")
+
+            }
+            binding.pinkpanther18.setOnClickListener {
+                callingActivityData("2016")
+
+            }
+            binding.pinkpanther19.setOnClickListener {
+                callingActivityData("2017")
+
+            }
+        }
+        if (name.equals("1003")) {
+
+
+            binding.pinkpanther9.setOnClickListener {
+                callingActivityData("3000")
+
+            }
+            binding.pinkpanther6.setOnClickListener {
+                callingActivityData("3001")
+
+            }
+            binding.pinkpanther7.setOnClickListener {
+                callingActivityData("3002")
+
+            }
+            binding.pinkpanther1.setOnClickListener {
+                callingActivityData("3003")
+
+            }
+            binding.pinkpanther10.setOnClickListener {
+                callingActivityData("3004")
+
+            }
+            binding.pinkpanther11.setOnClickListener {
+                callingActivityData("3005")
+
+            }
+            binding.pinkpanther2.setOnClickListener {
+                callingActivityData("3006")
+
+            }
+            binding.pinkpanther12.setOnClickListener {
+                callingActivityData("3007")
+
+            }
+            binding.pinkpanther13.setOnClickListener {
+                callingActivityData("3008")
+
+            }
+            binding.pinkpanther3.setOnClickListener {
+                callingActivityData("3009")
+
+            }
+            binding.pinkpanther14.setOnClickListener {
+                callingActivityData("3010")
+
+            }
+            binding.pinkpanther15.setOnClickListener {
+                callingActivityData("3011")
+
+            }
+            binding.pinkpanther4.setOnClickListener {
+                callingActivityData("3012")
+
+            }
+            binding.pinkpanther16.setOnClickListener {
+                callingActivityData("3013")
+
+            }
+            binding.pinkpanther17.setOnClickListener {
+                callingActivityData("3014")
+            }
+            binding.pinkpanther5.setOnClickListener {
+                callingActivityData("3015")
+
+            }
+            binding.pinkpanther18.setOnClickListener {
+                callingActivityData("3016")
+
+            }
+            binding.pinkpanther19.setOnClickListener {
+                callingActivityData("3017")
+
+            }
+        }
         if (name.equals("1001")) {
             binding.titleid.text = "JAIPUR PINK PANTHERS"
             binding.teamLogo.setImageResource(R.drawable.jaipur_logo)

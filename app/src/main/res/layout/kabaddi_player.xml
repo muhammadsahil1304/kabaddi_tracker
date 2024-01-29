@@ -6,350 +6,434 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="@color/lightblue">
-<LinearLayout 
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_weight="3"
-    >
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-    >
-
-
-        <ImageButton
-            android:id="@+id/back"
-            android:layout_width="40dp"
-            android:layout_height="35dp"
-            android:layout_marginTop="25dp"
-            app:tint="@color/white"
-            android:layout_marginStart="10dp"
-            android:background="@drawable/back_button"
-            android:src="@drawable/backspace"></ImageButton>
-        <ImageView
-            android:id="@+id/logo"
-            android:layout_width="90dp"
-            android:layout_height="65dp"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/jaipur_logo"></ImageView>
-        <TextView
-            android:layout_below="@id/logo"
-            android:layout_centerVertical="true"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:textColor="#B12164"
-            android:text="JAIPUR PINK PANTHERS"
-            android:gravity="center_horizontal"
-            android:textSize="28dp"
-            android:textStyle="bold"
-            android:fontFamily="@font/snowforsanta"></TextView>
-    </RelativeLayout>
-
+    android:background="@color/black">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:weightSum="2"
-        android:orientation="horizontal"
-        android:background="@color/lightblue"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3"
         >
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
             >
-            <androidx.cardview.widget.CardView
+
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="25dp"
+                app:tint="@color/white"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/back_button"
+                android:src="@drawable/backspace"></ImageButton>
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="90dp"
+                android:layout_height="65dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/jaipur_logo"></ImageView>
+            <TextView
+                android:id="@+id/logoid"
+                android:layout_below="@id/logo"
+                android:layout_centerVertical="true"
                 android:layout_width="match_parent"
-                android:layout_height="380dp"
+                android:layout_height="60dp"
+                android:textColor="#B12164"
+                android:text="JAIPUR PINK PANTHERS"
+                android:gravity="center_horizontal"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/snowforsanta"></TextView>
+        </RelativeLayout>
 
-                app:cardCornerRadius="40dp"
-                android:elevation="20dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                app:cardBackgroundColor="#B12164"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:background="@color/black"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 >
-
-                <LinearLayout
-                    android:id="@+id/jaipur"
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/imgback"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_height="390dp"
 
-                    <ImageView
-                        android:id="@+id/playerimgid"
-                        android:layout_width="match_parent"
-                        android:layout_height="300dp"
+                    app:cardCornerRadius="40dp"
+                    android:elevation="20dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:cardBackgroundColor="#B12164"
+                    >
 
-
-                        android:src="@drawable/rahul_jpr">
-
-                    </ImageView>
-
-                    <TextView
-                        android:id="@+id/jaipurtextid"
+                    <LinearLayout
+                        android:id="@+id/jaipur"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="RAHUL CHAUDHARY"
-                        android:textColor="@color/black"
-                        android:gravity="center_horizontal"
-                        android:padding="10dp"
-                        android:textStyle="bold"
-                        android:textSize="17dp"></TextView>
+                        android:orientation="vertical">
 
-                </LinearLayout>
+                        <ImageView
+                            android:id="@+id/playerimgid"
+                            android:layout_width="match_parent"
+                            android:layout_height="320dp"
 
-            </androidx.cardview.widget.CardView>
-    </LinearLayout>
 
-        <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-            android:orientation="vertical"
-        >
+                            android:src="@drawable/rahul_jpr">
+
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/jaipurtextid"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="RAHUL CHAUDHARY (C)"
+                            android:textColor="@color/black"
+                            android:gravity="center_horizontal"
+                            android:padding="10dp"
+                            android:textStyle="bold"
+                            android:textSize="17dp"></TextView>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
             <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="29dp">
-            <TextView
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:textColor="#B12164"
-                android:gravity="center_horizontal|center_vertical"
-                android:textSize="15dp"
-                android:textStyle="bold"
-                android:text="Personal Information"
-                android:fontFamily="@font/snowforsanta"></TextView></RelativeLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
                 >
                 <TextView
                     android:id="@+id/personal"
+                    android:layout_alignParentTop="true"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:textColor="#B12164"
-                    android:textSize="15dp"
-                    android:text=" S/O Rampal Singh\n Nickname=Raid Machine\n\n Nationality=Indian\n Born=16 June 1993 in Jalalpur Choiya, Bijnor, UP\n\nYears active=2010-present\n Height= 6 ft 0"></TextView>
-            </LinearLayout>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="29dp"
-                >
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="29dp"
                     android:textColor="#B12164"
                     android:gravity="center_horizontal|center_vertical"
-                    android:textSize="15dp"
+                    android:textSize="20dp"
                     android:textStyle="bold"
-                    android:text="SPORTS"
-                    android:fontFamily="@font/snowforsanta"
-                    ></TextView>
+                    android:text="PLAYER Profile"
+                    android:fontFamily="@font/snowforsanta"></TextView>
+
+                <TextView
+                    android:id="@+id/position"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/personal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:textStyle="bold"
+                    android:textColor="#5B1064"
+                    android:textSize="15dp"
+                    android:text="Position: Raider"
+                    android:background="@drawable/player_desc_prac"></TextView>
+                <TextView
+                    android:id="@+id/total_matches"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/position"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:textStyle="bold"
+                    android:textColor="#5B1064"
+                    android:textSize="15dp"
+                    android:text="Matches: 154"
+                    android:background="@drawable/player_desc_prac"></TextView>
+                <TextView
+                    android:id="@+id/raids"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/total_matches"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:textStyle="bold"
+                    android:textColor="#5B1064"
+                    android:textSize="15dp"
+                    android:text="Total Raids: 2209"
+                    android:background="@drawable/player_desc_prac"></TextView>
+
+                <TextView
+                    android:id="@+id/total_points"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/raids"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:textStyle="bold"
+                    android:textColor="#5B1064"
+                    android:textSize="15dp"
+                    android:text="Points: 1040"
+                    android:background="@drawable/player_desc_prac"></TextView>
+                <TextView
+                    android:id="@+id/avgtime"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/total_points"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:textStyle="bold"
+                    android:textColor="#5B1064"
+                    android:textSize="15dp"
+                    android:text="Avg. time on mat: 46%"
+                    android:background="@drawable/player_desc_prac"></TextView>
+                <TextView
+                    android:id="@+id/Effective"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/avgtime"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:textStyle="bold"
+                    android:textColor="#5B1064"
+                    android:textSize="15dp"
+                    android:text="Effective points: 603"
+                    android:background="@drawable/player_desc_prac"></TextView>
+                <TextView
+                    android:id="@+id/dob"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/Effective"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:textStyle="bold"
+                    android:textColor="#5B1064"
+                    android:textSize="15dp"
+                    android:text="D.O.B: 16 June 1993"
+                    android:background="@drawable/player_desc_prac"></TextView>
+                <TextView
+                    android:id="@+id/nation"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/dob"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="12dp"
+                    android:textStyle="bold"
+                    android:textColor="#5B1064"
+                    android:textSize="15dp"
+                    android:text="Nationality: INDIA"
+                    android:background="@drawable/player_desc_prac"></TextView>
+                <TextView
+                    android:id="@+id/club"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/nation"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="0dp"
+                    android:textStyle="bold"
+                    android:textColor="#5B1064"
+                    android:textSize="14dp"
+                    android:text="Club: Jaipur Pink Panthers"
+                    android:background="@drawable/player_desc_prac"></TextView>
+
+
+
             </RelativeLayout>
-            <LinearLayout
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="vertical">
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="35dp"
                 >
                 <TextView
-                    android:id="@+id/sports"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="#B12164"
-                    android:textSize="15dp"
-                    android:text=" Country= India\n Sport= Kabaddi\n Position= Raider\n\n Club= Jaipur Pink Panthers\n Team= Indian national kabaddi team"></TextView>
-            </LinearLayout>
-
-
-            </LinearLayout>
-
-</LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:weightSum="2"
-        android:orientation="vertical">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            >
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical"
-                android:text="Journey with PKL"
-                android:textStyle="bold"
-                android:paddingStart="10dp"
-                android:textColor="#5B1064"
-                ></TextView>
-        </RelativeLayout>
-        <androidx.cardview.widget.CardView
-            android:id="@+id/strength"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:cardCornerRadius="40dp"
-            android:elevation="20dp"
-            app:cardBackgroundColor="#5B1064"
-            >
-            <RelativeLayout
-                android:id="@+id/strength_title"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
-                <ImageButton
-                    android:id="@+id/back1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="35dp"
-                    app:tint="#7C7777"
-                    android:layout_marginStart="10dp"
-                    android:background="@drawable/back_button"
-                    android:src="@drawable/backspace"></ImageButton>
-                <ImageView
-                    android:id="@+id/logo1"
-                    android:layout_marginTop="15dp"
-                    android:layout_width="90dp"
-                    android:layout_height="65dp"
-                    android:background="@drawable/logo_back"
-                    android:layout_toRightOf="@id/back1"
-                    android:src="@drawable/jaipur_logo"></ImageView>
-                <TextView
-                    android:id="@+id/name_card"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="12dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
-                    android:layout_toRightOf="@id/logo1"
-                    android:textColor="@color/white"
-                    android:textSize="20dp"
-                    android:text="Jaipur Pink Panthers"
-                    ></TextView>
-                <TextView
-                    android:id="@+id/year_card"
-                    android:layout_marginStart="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
-                    android:layout_toRightOf="@id/logo1"
-                    android:layout_below="@id/name_card"
-                    android:textColor="@color/bengal_col"
-                    android:textSize="25dp"
-                    android:text="2023"
-                    ></TextView>
-
-                <TextView
-                    android:id="@+id/season_card"
-                    android:layout_marginStart="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
-                    android:layout_toRightOf="@id/year_card"
-                    android:layout_below="@id/name_card"
                     android:gravity="center_vertical"
-                    android:textColor="@color/white"
+                    android:text="Journey with PKL"
+                    android:textStyle="bold"
                     android:textSize="20dp"
-                    android:text=" | Season 10"
+                    android:background="@color/white"
+                    android:paddingStart="10dp"
+                    android:textColor="#5B1064"
                     ></TextView>
+            </RelativeLayout>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/strength"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="40dp"
+                android:elevation="20dp"
+                app:cardBackgroundColor="#5B1064"
+                >
+                <RelativeLayout
+                    android:id="@+id/strength_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <ImageButton
+                        android:id="@+id/back1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="35dp"
+                        app:tint="#7C7777"
+                        android:layout_marginStart="10dp"
+                        android:background="@drawable/back_button"
+                        android:src="@drawable/backspace"></ImageButton>
+                    <ImageView
+                        android:id="@+id/logo1"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="90dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/logo_back"
+                        android:layout_toRightOf="@id/back1"
+                        android:src="@drawable/jaipur_logo"></ImageView>
+                    <TextView
+                        android:id="@+id/name_card"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_toRightOf="@id/logo1"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:text="Jaipur Pink Panthers"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/year_card"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_toRightOf="@id/logo1"
+                        android:layout_below="@id/name_card"
+                        android:textColor="@color/bengal_col"
+                        android:textSize="25dp"
+                        android:text="2023"
+                        ></TextView>
 
-                <ImageButton
-                    android:id="@+id/back2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/season_card"
-                    app:tint="@color/white"
-                    android:rotation="180"
+                    <TextView
+                        android:id="@+id/season_card"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_toRightOf="@id/year_card"
+                        android:layout_below="@id/name_card"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:text=" | Season 10"
+                        ></TextView>
+
+                    <ImageButton
+                        android:id="@+id/back2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/season_card"
+                        app:tint="@color/white"
+                        android:rotation="180"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="35dp"
+                        android:background="@drawable/back_button"
+                        android:src="@drawable/backspace"></ImageButton>
+                    <TextView
+                        android:id="@+id/points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_below="@id/season_card"
+                        android:layout_marginTop="50dp"
+                        android:textSize="20dp"
+                        android:text="Total Points Earned "></TextView>
+                    <TextView
+                        android:id="@+id/points_earn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_below="@id/points"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="70dp"
+                        android:textSize="30dp"
+                        android:text="3"></TextView>
+                    <TextView
+                        android:id="@+id/points2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_below="@id/season_card"
+                        android:layout_marginTop="50dp"
+                        android:layout_toRightOf="@id/points"
+                        android:layout_alignParentEnd="true"
+                        android:gravity="end"
+                        android:textSize="20dp"
+                        android:text="Total Matches "></TextView>
+                    <TextView
+                        android:id="@+id/matches"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:layout_below="@id/points"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="285dp"
+                        android:textSize="30dp"
+                        android:text="4"></TextView>
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                >
+                <ImageView
+                    android:id="@+id/phone"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/phone_24"></ImageView>
+                <ImageView
+                    android:id="@+id/msg"
+                    android:layout_toRightOf="@id/phone"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="35dp"
-                    android:background="@drawable/back_button"
-                    android:src="@drawable/backspace"></ImageButton>
-                <TextView
-                    android:id="@+id/points"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:layout_below="@id/season_card"
-                    android:layout_marginTop="50dp"
-                    android:textSize="20dp"
-                    android:text="Total Points Earned "></TextView>
-                <TextView
-                    android:id="@+id/points_earn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:layout_below="@id/points"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="70dp"
-                    android:textSize="30dp"
-                    android:text="3"></TextView>
-                <TextView
-                    android:id="@+id/points2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:layout_below="@id/season_card"
-                    android:layout_marginTop="50dp"
-                    android:layout_toRightOf="@id/points"
-                    android:layout_alignParentEnd="true"
-                    android:gravity="end"
-                    android:textSize="20dp"
-                    android:text="Total Matches "></TextView>
-                <TextView
-                    android:id="@+id/matches"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:layout_below="@id/points"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="285dp"
-                    android:textSize="30dp"
-                    android:text="4"></TextView>
+                    android:src="@drawable/baseline_message_24"></ImageView>
+                <ImageView
+                    android:id="@+id/fb"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="9dp"
+                    android:src="@drawable/facebook_logo"></ImageView>
+                <ImageView
+                    android:id="@+id/insta"
+                    android:layout_width="40dp"
+                    android:layout_height="45dp"
+                    android:layout_toLeftOf="@id/fb"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="20dp"
+                    android:src="@drawable/insta_logo"></ImageView>
+
+
 
 
             </RelativeLayout>
-        </androidx.cardview.widget.CardView>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="380dp"
-            android:layout_weight="1"
-            >
-            <ImageView
-                android:id="@+id/phone"
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_marginStart="9dp"
-                android:layout_alignParentBottom="true"
-                android:src="@drawable/phone_24"></ImageView>
-            <ImageView
-                android:id="@+id/msg"
-                android:layout_toRightOf="@id/phone"
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="20dp"
-                android:src="@drawable/baseline_message_24"></ImageView>
-            <ImageView
-                android:id="@+id/fb"
-                android:layout_alignParentRight="true"
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="9dp"
-                android:src="@drawable/facebook_logo"></ImageView>
-            <ImageView
-                android:id="@+id/insta"
-                android:layout_width="40dp"
-                android:layout_height="45dp"
-                android:layout_toLeftOf="@id/fb"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="20dp"
-                android:src="@drawable/insta_logo"></ImageView>
 
-
-
-
-        </RelativeLayout>
-
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
 </androidx.core.widget.NestedScrollView>

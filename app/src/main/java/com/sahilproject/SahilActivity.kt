@@ -24,6 +24,7 @@ import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
+import com.bumptech.glide.Glide
 import com.sahilproject.databinding.ActivityMainBinding
 import com.sahilproject.databinding.IndianTeamBinding
 import com.sahilproject.databinding.InstaMainBinding
@@ -42,68 +43,17 @@ class SahilActivity : AppCompatActivity() {
         setContentView(binding.root)
         Log.e("oncreate2222222222","oncreate")
         AndroidNetworking.initialize(getApplicationContext());
-/*************************post_create***********************************/
 
-        AndroidNetworking.post("https://reqres.in/api/users")
-            .addBodyParameter("name", "morpheus")
-            .addBodyParameter("job", "leader")
-            .setTag("test")
-            .setPriority(Priority.HIGH)
-            .build()
-            .getAsJSONObject(object : JSONObjectRequestListener {
-                override fun onResponse(response: JSONObject) {
-                    // do anything with response
-                    Log.d("response",response.toString())
-                }
 
-                override fun onError(error: ANError) {
-                    // handle error
-                    Log.e("response","error")
-                }
-            })
-        /***********************************Post_register**************************************************/
-        AndroidNetworking.post("https://reqres.in/api/register")
-            .addBodyParameter("email", "eve.holt@reqres.in")
-            //.addBodyParameter("password", "pistol")
-            .setTag("test")
-            .setPriority(Priority.HIGH)
-            .build()
-            .getAsJSONObject(object : JSONObjectRequestListener {
-                override fun onResponse(response: JSONObject) {
-                    // do anything with response
-                    Log.d("register_response",response.toString())
-                }
-
-                override fun onError(error: ANError) {
-                    // handle error
-                    Log.e("register_response","error")
-                }
-            })
-        /***********************************Post_login**************************************************/
-        AndroidNetworking.post("https://reqres.in/api/login")
-            .addBodyParameter("email", "eve.holt@reqres.in")
-            //.addBodyParameter("password", "cityslicka")
-            .setTag("test")
-            .setPriority(Priority.HIGH)
-            .build()
-            .getAsJSONObject(object : JSONObjectRequestListener {
-                override fun onResponse(response: JSONObject) {
-                    // do anything with response
-                    Log.d("login_response",response.toString())
-                }
-
-                override fun onError(error: ANError) {
-                    // handle error
-                    Log.e("login_response","error")
-                }
-            })
-
-        sendAndRequestResponse()
-        SendSingleUser()
-        noSendSingleUser()
-        ListResource()
-        SingleResource()
-        SingleResourceNotfound()
+      //  createAPiUser();
+        //Signupuser();
+        LoginUser();
+       // sendAndRequestResponse()
+      //  SendSingleUser()
+     //   noSendSingleUser()
+     //   ListResource()
+    //    SingleResource()
+    //    SingleResourceNotfound()
 
         val scaleanim: Animation=
             AnimationUtils.loadAnimation(applicationContext, R.anim.scaleanim)
@@ -152,6 +102,70 @@ class SahilActivity : AppCompatActivity() {
 
     }
 
+    private fun LoginUser() {
+        /***********************************Post_login**************************************************/
+        AndroidNetworking.post("https://reqres.in/api/login")
+            .addBodyParameter("email", "eve.holt@reqres.in")
+            //.addBodyParameter("password", "cityslicka")
+            .setTag("test")
+            .setPriority(Priority.HIGH)
+            .build()
+            .getAsJSONObject(object : JSONObjectRequestListener {
+                override fun onResponse(response: JSONObject) {
+                    // do anything with response
+                    Log.d("login_response",response.toString())
+                }
+
+                override fun onError(error: ANError) {
+                    // handle error
+                    Log.e("login_response","error")
+                }
+            })
+    }
+
+    private fun Signupuser() {
+        AndroidNetworking.post("https://reqres.in/api/register")
+            .addBodyParameter("email", "eve.holt@reqres.in")
+            //.addBodyParameter("password", "pistol")
+            .setTag("test")
+            .setPriority(Priority.HIGH)
+            .build()
+            .getAsJSONObject(object : JSONObjectRequestListener {
+                override fun onResponse(response: JSONObject) {
+                    // do anything with response
+                    Log.d("register_response",response.toString())
+                }
+
+                override fun onError(error: ANError) {
+                    // handle error
+                    Log.e("register_response","error")
+                }
+            })
+    }
+
+    private fun createAPiUser() {
+        /*************************post_create***********************************/
+
+        AndroidNetworking.post("https://reqres.in/api/users")
+            .addBodyParameter("name", "morpheus")
+            .addBodyParameter("job", "leader")
+            .setTag("test")
+            .setPriority(Priority.HIGH)
+            .build()
+            .getAsJSONObject(object : JSONObjectRequestListener {
+                override fun onResponse(response: JSONObject) {
+                    // do anything with response
+                    Log.d("response",response.toString())
+                }
+
+                override fun onError(error: ANError) {
+                    // handle error
+                    Log.e("response","error")
+                }
+            })
+        /***********************************Post_register**************************************************/
+    }
+
     class GetUserApi {
      // Req
     }
@@ -164,13 +178,34 @@ class SahilActivity : AppCompatActivity() {
         val url = "https://reqres.in/api/users?page=2"
 
         val stringRequest = StringRequest(Request.Method.GET, url,
-            Response.Listener<String> { response ->
+            { response ->
                 // Display the first 500 characters of the response string.
                 Log.e("Myresponse","List_User"+response);
+                var jsobject=JSONObject(response);
+                var pagecount=jsobject.getInt("page");
+                var per_pagecount=jsobject.getInt("per_page");
+                var totalpage=jsobject.getInt("total");
+
+                var jsonarray=jsobject.getJSONArray("data");
+
+                var jsobject7=JSONObject(jsonarray.get(0).toString())
+                var image_avatar=jsobject7.getString("avatar");
+                //
+                Glide.with(this)
+                    .load(image_avatar)
+                    .into(binding.jaipurimg);
+
+                binding.jaipurtextid.setText(""+per_pagecount)
+
+
+                Log.e("pagecount",""+pagecount);
+                Log.e("per_pagecount",""+per_pagecount);
+                Log.e("totalpage",""+totalpage);
+
              //   textView.text = "Response is: ${response.substring(0, 500)}"
 
             },
-            Response.ErrorListener {
+            {
                 Log.e("Myresponse","That didn't work!");
               //  textView.text = "That didn't work!"
             })
@@ -178,6 +213,8 @@ class SahilActivity : AppCompatActivity() {
 // Add the request to the RequestQueue.
         queue.add(stringRequest)
     }
+
+
     /************************************* Single Users *************************************************/
     fun SendSingleUser() {
 
