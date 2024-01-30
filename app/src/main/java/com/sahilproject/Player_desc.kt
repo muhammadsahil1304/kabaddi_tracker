@@ -48,6 +48,12 @@ class Player_desc : AppCompatActivity() {
         }
         //finish();
         if (name.equals("1001")) {
+            val username = "bhavani.rajput_official"
+            binding.insta.setOnClickListener{
+
+                // Replace with the actual Instagram username
+                sendInstagram(username)
+            }
             binding.playerimgid.setImageResource(R.drawable.bhavani)
             binding.jaipurtextid.text = "Bhavani Rajput"
             binding.position.text ="Position:raider"
@@ -986,6 +992,113 @@ class Player_desc : AppCompatActivity() {
             binding.matches.text = "1"
             binding.pointsEarn.text = "0"
         }
+        /******************************************* UP **************************************************************************/
+        if (name.equals("4000")) {
+            binding.logoid.text="UP YODDHA"
+            binding.logo1.setImageResource(R.drawable.up_logo)
+            binding.nameCard.text="UP Yoddha"
+            binding.personal.setTextColor(getColor(R.color.up_col))
+            binding.logo.setImageResource(R.drawable.up_logo)
+            binding.logoid.setTextColor(getColor(R.color.up_col))
+            binding.playerimgid.setImageResource(R.drawable.pardeep)
+            binding.jaipurtextid.text = "Pardeep Narwal"
+            binding.position.text ="Position:Raider"
+            binding.matches.text="Matches:146"
+            binding.totalPoints.text="Points:1408"
+            binding.raids.text="Total Raids:2471"
+            binding.avgtime.text="Avg. time on mat:54.14%"
+            binding.Effective.text="Effective points:904"
+            binding.dob.text="D.O.B:31 Jan 1990"
+            binding.nation.text="Nationality INDIA"
+            binding.club.text="Club:UP Yoddha"
+            binding.pointsEarn.text = "122"
+            binding.matches.text = "16"
+        }
+        if (name.equals("4001")) {
+            binding.logoid.text="UP YODDHA"
+            binding.logo1.setImageResource(R.drawable.up_logo)
+            binding.nameCard.text="UP Yoddha"
+            binding.personal.setTextColor(getColor(R.color.up_col))
+            binding.logo.setImageResource(R.drawable.up_logo)
+            binding.logoid.setTextColor(getColor(R.color.up_col))
+            binding.playerimgid.setImageResource(R.drawable.gulveer)
+            binding.jaipurtextid.text = "Gulveer Singh"
+            binding.position.text ="Position:Raider"
+            binding.matches.text="Matches:7"
+            binding.totalPoints.text="Points:20"
+            binding.raids.text="Total Raids:30"
+            binding.avgtime.text="Avg. time on mat:32.14%"
+            binding.Effective.text="Effective points:11"
+            binding.dob.text="D.O.B:3 Oct 1998"
+            binding.nation.text="Nationality INDIA"
+            binding.club.text="Club:UP Yoddha"
+            binding.pointsEarn.text = "0"
+            binding.matches.text = "0"
+        }
+        if (name.equals("4002")) {
+            binding.logoid.text="UP YODDHA"
+            binding.logo1.setImageResource(R.drawable.up_logo)
+            binding.nameCard.text="UP Yoddha"
+            binding.personal.setTextColor(getColor(R.color.up_col))
+            binding.logo.setImageResource(R.drawable.up_logo)
+            binding.logoid.setTextColor(getColor(R.color.up_col))
+            binding.playerimgid.setImageResource(R.drawable.surender)
+            binding.jaipurtextid.text = "Surender Gill"
+            binding.position.text ="Position:Raider"
+            binding.matches.text="Matches:58"
+            binding.totalPoints.text="Points:348"
+            binding.raids.text="Total Raids:772"
+            binding.avgtime.text="Avg. time on mat:70.14%"
+            binding.Effective.text="Effective points:245"
+            binding.dob.text="D.O.B:24 Aug 1995"
+            binding.nation.text="Nationality INDIA"
+            binding.club.text="Club:UP Yoddha"
+            binding.pointsEarn.text = "87"
+            binding.matches.text = "10"
+        }
+        if (name.equals("4003")) {
+            binding.logoid.text="UP YODDHA"
+            binding.logo1.setImageResource(R.drawable.up_logo)
+            binding.nameCard.text="UP Yoddha"
+            binding.personal.setTextColor(getColor(R.color.up_col))
+            binding.logo.setImageResource(R.drawable.up_logo)
+            binding.logoid.setTextColor(getColor(R.color.up_col))
+            binding.playerimgid.setImageResource(R.drawable.mahipal)
+            binding.jaipurtextid.text = "Mahipal"
+            binding.position.text ="Position:Raider"
+            binding.matches.text="Matches:3"
+            binding.totalPoints.text="Points:55"
+            binding.raids.text="Total Raids:69"
+            binding.avgtime.text="Avg. time on mat:89.14%"
+            binding.Effective.text="Effective points:56"
+            binding.dob.text="D.O.B:15 June 1995"
+            binding.nation.text="Nationality INDIA"
+            binding.club.text="Club:UP Yoddha"
+            binding.matches.text = "1"
+            binding.pointsEarn.text = "0"
+        }
+        if (name.equals("4004")) {
+            binding.logoid.text="UP YODDHA"
+            binding.logo1.setImageResource(R.drawable.up_logo)
+            binding.nameCard.text="UP Yoddha"
+            binding.personal.setTextColor(getColor(R.color.up_col))
+            binding.logo.setImageResource(R.drawable.up_logo)
+            binding.logoid.setTextColor(getColor(R.color.up_col))
+            binding.playerimgid.setImageResource(R.drawable.anil)
+            binding.jaipurtextid.text = "Anil kumar"
+            binding.position.text ="Position:Raider"
+            binding.matches.text="Matches:-"
+            binding.totalPoints.text="Points:-"
+            binding.raids.text="Total Raids:-"
+            binding.avgtime.text="Avg. time on mat:-"
+            binding.Effective.text="Effective points:-"
+            binding.dob.text="D.O.B:-"
+            binding.nation.text="Nationality INDIA"
+            binding.club.text="Club:UP Yoddha"
+            binding.matches.text = "9"
+            binding.pointsEarn.text = "18"
+        }
+
 
 
     }

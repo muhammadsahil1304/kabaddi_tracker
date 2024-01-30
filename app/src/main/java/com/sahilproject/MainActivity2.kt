@@ -285,6 +285,81 @@ class MainActivity2 : AppCompatActivity() {
 
             }
         }
+        if (name.equals("1004")) {
+
+
+            binding.pinkpanther9.setOnClickListener {
+                callingActivityData("4000")
+
+            }
+            binding.pinkpanther6.setOnClickListener {
+                callingActivityData("4001")
+
+            }
+            binding.pinkpanther7.setOnClickListener {
+                callingActivityData("4002")
+
+            }
+            binding.pinkpanther1.setOnClickListener {
+                callingActivityData("4003")
+
+            }
+            binding.pinkpanther10.setOnClickListener {
+                callingActivityData("4004")
+
+            }
+            binding.pinkpanther11.setOnClickListener {
+                callingActivityData("4005")
+
+            }
+            binding.pinkpanther2.setOnClickListener {
+                callingActivityData("4006")
+
+            }
+            binding.pinkpanther12.setOnClickListener {
+                callingActivityData("4007")
+
+            }
+            binding.pinkpanther13.setOnClickListener {
+                callingActivityData("4008")
+
+            }
+            binding.pinkpanther3.setOnClickListener {
+                callingActivityData("4009")
+
+            }
+            binding.pinkpanther14.setOnClickListener {
+                callingActivityData("4010")
+
+            }
+            binding.pinkpanther15.setOnClickListener {
+                callingActivityData("4011")
+
+            }
+            binding.pinkpanther4.setOnClickListener {
+                callingActivityData("4012")
+
+            }
+            binding.pinkpanther16.setOnClickListener {
+                callingActivityData("4013")
+
+            }
+            binding.pinkpanther17.setOnClickListener {
+                callingActivityData("4014")
+            }
+            binding.pinkpanther5.setOnClickListener {
+                callingActivityData("4015")
+
+            }
+            binding.pinkpanther18.setOnClickListener {
+                callingActivityData("4016")
+
+            }
+            binding.pinkpanther19.setOnClickListener {
+                callingActivityData("4017")
+
+            }
+        }
         if (name.equals("1001")) {
             binding.titleid.text = "JAIPUR PINK PANTHERS"
             binding.teamLogo.setImageResource(R.drawable.jaipur_logo)
